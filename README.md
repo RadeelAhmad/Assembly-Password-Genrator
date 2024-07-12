@@ -18,9 +18,9 @@ Input the desired complexity level (1-4).
 The generated password will be displayed.
 
 ## Code Structure
-.data: Defines data storage for the password, length, complexity, and character sets.
-start PROC: The main procedure that handles reading input, generating the password, and displaying the result.
-GenerateRandomChar PROC: Generates a random character based on the specified complexity level.
+- `data:` Defines data storage for the password, length, complexity, and character sets.
+- `start PROC:` The main procedure that handles reading input, generating the password, and displaying the result.
+- `GenerateRandomChar PROC:` Generates a random character based on the specified complexity level.
 
 ## Dependencies
 - Irvine32.inc library
