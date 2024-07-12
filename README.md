@@ -5,10 +5,10 @@ This repository contains an assembly language program that generates passwords o
 The program uses the Irvine32 library to handle input and output operations. It reads two integers from the user: the desired length of the password and the complexity level. Based on the complexity level, it generates a random password using the specified character sets.
 
 ## Complexity Levels
-1: Uppercase letters only
-2: Mixed case (uppercase and lowercase letters)
-3: Mixed case with numbers (uppercase, lowercase letters, and numbers)
-4: All characters (uppercase, lowercase letters, numbers, and special characters)
+- Uppercase letters only
+- Mixed case (uppercase and lowercase letters)
+- Mixed case with numbers (uppercase, lowercase letters, and numbers)
+- All characters (uppercase, lowercase letters, numbers, and special characters)
 ## Usage
 Assemble and link the program using an assembler that supports the Irvine32 library (such as MASM).
 Run the executable.
