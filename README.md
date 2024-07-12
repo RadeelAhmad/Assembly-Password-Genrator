@@ -22,5 +22,18 @@ The generated password will be displayed.
 - `start PROC:` The main procedure that handles reading input, generating the password, and displaying the result.
 - `GenerateRandomChar PROC:` Generates a random character based on the specified complexity level.
 
+## Example
+```bash
+ --------- Main Menu ------------
+1. Weak Password (lowercase + length fewer than 8)
+2. Average Password (mixedcase + numbers + length 8 to 12)
+3. Strong Password (mixedcase + numbers + special characters + length greater than 12)
+
+Choose Complexity (1-3): 3
+Enter Desired Password Length: 16
+
+Password Will be: Ab1!dEf2#Gh3$Ij4
+```
+
 ## Dependencies
 - Irvine32.inc library
